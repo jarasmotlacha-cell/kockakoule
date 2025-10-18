@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KoèkáKoule – Kreativní herní studio</title>
+    <meta
+      name="description"
+      content="KoèkáKoule je kreativní èeské studio zamìøené na originální deskové i digitální hry."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a href="#hero" class="logo" aria-label="KoèkáKoule domù">
+          <img src="./assets/images/logo.svg" alt="Logo KoèkáKoule" />
+        </a>
+        <nav class="main-nav" aria-label="Hlavní navigace">
+          <button class="main-nav__toggle" aria-expanded="false" aria-controls="primary-menu">
+            <span class="sr-only">Zobrazit navigaci</span>
+            <span class="main-nav__bar"></span>
+            <span class="main-nav__bar"></span>
+            <span class="main-nav__bar"></span>
+          </button>
+          <ul id="primary-menu">
+            <li><a href="#projekty">Projekty</a></li>
+            <li><a href="#studio">Studio</a></li>
+            <li><a href="#komunita">Komunita</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="container hero__content">
+          <div class="hero__text">
+            <span class="eyebrow">KREATIVNÍ HERNÍ STUDIO</span>
+            <h1>Rozhýbeme vaši pøedstavivost</h1>
+            <p>
+              V KoèkáKouli tvoøíme originální deskovky, digitální zážitky i interaktivní instalace,
+              které spojují svìt fantazie a moderních technologií.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#projekty">Naše projekty</a>
+              <a class="btn btn--ghost" href="#kontakt">Spojte se s námi</a>
+            </div>
+          </div>
+          <figure class="hero__visual">
+            <img
+              src="https://images.unsplash.com/photo-1601987072381-5b1c7cc2600d?auto=format&fit=crop&w=900&q=80"
+              alt="Ilustraèní fotografie deskové hry"
+              loading="lazy"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section id="projekty" class="projects">
+        <div class="container">
+          <header class="section-header">
+            <span class="eyebrow">PORTFOLIO</span>
+            <h2>Každý projekt je dobrodružství</h2>
+            <p>
+              Od kapesních karetních her až po rozsáhlé digitální svìty. Milujeme výzvy, které v sobì
+              spojují pøíbìh, estetiku i hravost.
+            </p>
+          </header>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <img
+                src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80"
+                alt="Desková hra na stole"
+                loading="lazy"
+              />
+              <div class="project-card__body">
+                <h3>Galaktická posádka</h3>
+                <p>
+                  Kooperativní hra pro celou rodinu, kde se hráèi spoleènì vydávají na kosmické mise.
+                </p>
+                <a href="#kontakt" class="project-card__link">Zjistit více</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img
+                src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80"
+                alt="Digitální herní prostøedí"
+                loading="lazy"
+              />
+              <div class="project-card__body">
+                <h3>Neonové podzemí</h3>
+                <p>
+                  Atmosférické roguelike dobrodružství, ve kterém rozhodují chytré volby i rychlé reakce.
+                </p>
+                <a href="#kontakt" class="project-card__link">Zjistit více</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img
+                src="https://images.unsplash.com/photo-1530543787849-128d94430c6b?auto=format&fit=crop&w=600&q=80"
+                alt="Lidé hrající hru s mobilem"
+                loading="lazy"
+              />
+              <div class="project-card__body">
+                <h3>Mìstské šifry</h3>
+                <p>
+                  Interaktivní zážitek v ulicích mìsta, který kombinuje rozšíøenou realitu s tradièními hádankami.
+                </p>
+                <a href="#kontakt" class="project-card__link">Zjistit více</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="studio" class="studio">
+        <div class="container studio__layout">
+          <div class="studio__text">
+            <span class="eyebrow">O NÁS</span>
+            <h2>Studio plné hráèù, designérù a vizionáøù</h2>
+            <p>
+              Jsme tým grafikù, vývojáøù a game designerù z Prahy. Vytváøíme jedineèné projekty na klíè
+              a rádi spolupracujeme s autory z nezávislé scény.
+            </p>
+            <ul class="studio__list">
+              <li>Kompletní herní design od nápadu po prototyp</li>
+              <li>Art direction a vizuální identita</li>
+              <li>Digitální produkce v Unity a Unreal Engine</li>
+              <li>Facilitace playtestù a komunitního feedbacku</li>
+            </ul>
+          </div>
+          <aside class="studio__aside" aria-label="Výsledky v èíslech">
+            <div class="stat">
+              <span class="stat__number">35+</span>
+              <span class="stat__label">realizovaných projektù</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number">12</span>
+              <span class="stat__label">èlenù core týmu</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number">7k</span>
+              <span class="stat__label">èlenù v komunitì</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="komunita" class="community">
+        <div class="container">
+          <header class="section-header">
+            <span class="eyebrow">KOMUNITA</span>
+            <h2>Tvoøíme herní zážitky spoleènì</h2>
+            <p>
+              Komunitní eventy, streamy s vývojáøi a otevøené playtesty nám pomáhají posouvat každý projekt.
+            </p>
+          </header>
+          <div class="timeline" role="list">
+            <div class="timeline__item" role="listitem">
+              <span class="timeline__date">Každý ètvrtek</span>
+              <h3>Design jam v našem studiu</h3>
+              <p>Pøijïte si zahrát prototypy a dát zpìtnou vazbu pøímo autorùm.</p>
+            </div>
+            <div class="timeline__item" role="listitem">
+              <span class="timeline__date">Každý první pátek</span>
+              <h3>Livestream z vývoje</h3>
+              <p>Nahlédnìte do zákulisí a zjistìte, na èem aktuálnì pracujeme.</p>
+            </div>
+            <div class="timeline__item" role="listitem">
+              <span class="timeline__date">Celoroènì</span>
+              <h3>Playtest hub</h3>
+              <p>Otevíráme prototypy komunitì a sbíráme data pro další iterace.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="container cta__layout">
+          <div>
+            <h2>Pøipraveni na novou hru?</h2>
+            <p>Napište nám, jaký svìt chcete vytvoøit, a my se postaráme o zbytek.</p>
+          </div>
+          <a class="btn btn--secondary" href="#kontakt">Domluvme si schùzku</a>
+        </div>
+      </section>
+
+      <section id="kontakt" class="contact">
+        <div class="container contact__layout">
+          <div class="contact__info">
+            <span class="eyebrow">KONTAKT</span>
+            <h2>Ozvìte se nám</h2>
+            <p>Preferujeme osobní setkání u kávy, ale zprávu nám mùžete poslat kdykoliv.</p>
+            <ul>
+              <li><strong>E-mail:</strong> <a href="mailto:studio@kockakoule.cz">studio@kockakoule.cz</a></li>
+              <li><strong>Telefon:</strong> <a href="tel:+420777555123">+420 777 555 123</a></li>
+              <li><strong>Adresa:</strong> Veverèí 7, Praha 7</li>
+            </ul>
+            <div class="social-links">
+              <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+              <a href="https://discord.com" target="_blank" rel="noopener">Discord</a>
+              <a href="https://twitch.tv" target="_blank" rel="noopener">Twitch</a>
+            </div>
+          </div>
+          <form class="contact__form" action="https://formspree.io/f/xwkdydje" method="POST">
+            <div class="form-group">
+              <label for="name">Jméno</label>
+              <input id="name" name="name" type="text" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" required autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="message">Zpráva</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary">Odeslat zprávu</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> KoèkáKoule studio. Všechna práva vyhrazena.</p>
+        <nav aria-label="Odkazy v patièce">
+          <a href="#hero">Nahoru</a>
+          <a href="#projekty">Projekty</a>
+          <a href="#kontakt">Kontakt</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="./assets/js/main.js" defer></script>
+  </body>
+</html>
