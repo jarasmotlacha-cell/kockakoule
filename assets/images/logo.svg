@@ -8,12 +8,10 @@
       font-family="'Poppins', 'Segoe UI', sans-serif"
       font-size="28"
       font-weight="700"
-      letter-spacing="0.12em"
-      xml:space="preserve"
     >
       <tspan fill="#FF7B54">K</tspan>
-      <tspan fill="#F8FAFC">OČKA </tspan>
-      <tspan fill="#FF7B54">K</tspan>
+      <tspan fill="#F8FAFC">OČKA</tspan>
+      <tspan dx="1em" fill="#FF7B54">K</tspan>
       <tspan fill="#F8FAFC">OULE</tspan>
     </text>
   </g>
@@ -27,3 +25,4 @@
     </filter>
   </defs>
 </svg>
+
