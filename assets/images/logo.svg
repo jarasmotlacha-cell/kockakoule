@@ -1,5 +1,5 @@
 <svg width="240" height="60" viewBox="0 0 240 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="300" height="60" rx="16" fill="#0F172A" />
+  <rect width="600" height="60" rx="16" fill="#0F172A" />
   <g filter="url(#glow)">
     <text
       x="120"
@@ -27,4 +27,5 @@
     </filter>
   </defs>
 </svg>
+
 
